@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMATETA Techs & Designs - Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container flex justify-between items-center py-4">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/OUR LOGO REVISED.png" alt="AMATETA Techs & Designs Logo" class="h-12 w-auto rounded-md">
+                </a>
+            </div>
+            <nav class="nav-menu">
+                <ul class="flex space-x-8"> <!-- Increased spacing here -->
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="team.html" class="nav-link">Our Team</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="mobile-menu-toggle" class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div id="mobile-nav-overlay" class="mobile-nav-overlay">
+            <button id="close-mobile-menu" class="close-mobile-menu">&times;</button>
+            <nav class="mobile-nav-menu">
+                <ul>
+                    <li><a href="index.html" class="nav-link-mobile">Home</a></li>
+                    <li><a href="about.html" class="nav-link-mobile">About</a></li>
+                    <li><a href="team.html" class="nav-link-mobile">Our Team</a></li>
+                    <li><a href="services.html" class="nav-link-mobile">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link-mobile">Portfolio</a></li>
+                    <li><a href="contact.html" class="nav-link-mobile">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero-section text-center py-20 px-4">
+            <div class="container">
+                <h1 class="text-5xl font-bold mb-4">Get in Touch</h1>
+                <p class="text-xl max-w-2xl mx-auto">
+                    We'd love to hear from you! Reach out to us through any of the methods below.
+                </p>
+            </div>
+        </section>
+
+        <section class="contact-section py-16 px-4">
+            <div class="container grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div class="contact-form-container p-8 rounded-lg shadow-md">
+                    <h2 class="text-3xl font-bold mb-6 text-center">Send Us a Message</h2>
+                    <!-- You can integrate a backend service like Formspree or Netlify Forms here -->
+                    <form action="https://formspree.io/f/yourformid" method="POST" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-lg font-medium mb-2">Your Name</label>
+                            <input type="text" id="name" name="name" required
+                                class="w-full p-3 rounded-md border border-gray-300 focus:ring-primary-color focus:border-primary-color">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-lg font-medium mb-2">Your Email</label>
+                            <input type="email" id="email" name="email" required
+                                class="w-full p-3 rounded-md border border-gray-300 focus:ring-primary-color focus:border-primary-color">
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-lg font-medium mb-2">Subject</label>
+                            <input type="text" id="subject" name="subject" required
+                                class="w-full p-3 rounded-md border border-gray-300 focus:ring-primary-color focus:border-primary-color">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-lg font-medium mb-2">Your Message</label>
+                            <textarea id="message" name="message" rows="6" required
+                                class="w-full p-3 rounded-md border border-gray-300 focus:ring-primary-color focus:border-primary-color"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary w-full py-3">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information & Map -->
+                <div class="contact-info-container p-8 rounded-lg shadow-md">
+                    <h2 class="text-3xl font-bold mb-6 text-center">Contact Information</h2>
+                    <div class="space-y-6 text-lg">
+                        <p class="flex items-center">
+                            <i class="fas fa-phone-alt text-primary-color mr-3"></i>
+                            <a href="tel:+264813441248" class="hover:underline">+264 81 344 1248</a>
+                        </p>
+                        <p class="flex items-center">
+                            <i class="fas fa-envelope text-primary-color mr-3"></i>
+                            <a href="mailto:haufikufrans7@gmail.com" class="hover:underline">a.techs.graphics@gmail.com</a>
+                        </p>
+                        <p class="flex items-center">
+                            <i class="fab fa-whatsapp text-primary-color mr-3"></i>
+                            <a href="https://wa.me/264853441248" target="_blank" class="hover:underline">Chat with me on WhatsApp</a>
+                        </p>
+                        <p class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-primary-color mr-3"></i>
+                            123 Business Street, Windhoek, Namibia
+                        </p>
+                    </div>
+
+                    <h3 class="text-2xl font-bold mt-8 mb-4 text-center">Find Us on the Map</h3>
+                    <!-- Google Maps Embed (Replace with your actual embed code) -->
+                    <div class="map-container rounded-lg overflow-hidden shadow-md">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14963.85694200782!2d17.07001475!3d-22.570000000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c0b1f1f1f1f1f1f%3A0x1f1f1f1f1f1f1f1f!2sWindhoek%2C%20Namibia!5e0!3m2!1sen!2sus!4v1678901234567!5m2!1sen!2sus"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-8 px-4">
+        <div class="container text-center">
+            <p>&copy; 2024 AMATETA Techs & Designs. All rights reserved.</p>
+            <div class="social-links mt-4">
+                <a href="https://www.facebook.com/profile.php?id=61565523041653" target="_blank" class="text-2xl mx-2 hover:text-primary-color transition-colors"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/frans-haufiku-91587a241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-2xl mx-2 hover:text-primary-color transition-colors"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/a.techs.designs?igsh=MXZ1ZXc3MXlzbGwwNw==" target="_blank" class="text-2xl mx-2 hover:text-primary-color transition-colors"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

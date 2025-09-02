@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMATETA Techs & Designs - Home</title>
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon (optional) -->
+    <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container flex justify-between items-center py-4">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/OUR LOGO REVISED.png" alt="AMATETA Techs & Designs Logo" class="h-12 w-auto rounded-md">
+                </a>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="nav-menu">
+                <ul class="flex space-x-8"> <!-- Already updated to space-x-8 for more spacing -->
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="team.html" class="nav-link">Our Team</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Menu Toggle (Hidden on Desktop) -->
+            <button id="mobile-menu-toggle" class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Dark/Light Mode Toggle -->
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation Overlay -->
+        <div id="mobile-nav-overlay" class="mobile-nav-overlay">
+            <button id="close-mobile-menu" class="close-mobile-menu">&times;</button>
+            <nav class="mobile-nav-menu">
+                <ul>
+                    <li><a href="index.html" class="nav-link-mobile">Home</a></li>
+                    <li><a href="about.html" class="nav-link-mobile">About</a></li>
+                    <li><a href="team.html" class="nav-link-mobile">Our Team</a></li>
+                    <li><a href="services.html" class="nav-link-mobile">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link-mobile">Portfolio</a></li>
+                    <li><a href="contact.html" class="nav-link-mobile">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section text-center py-20 px-4">
+            <div class="container">
+                <h1 class="text-5xl font-bold mb-4">Welcome to AMATETA Techs & Designs!</h1>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">
+                    We offer cutting-edge solutions in Digital Marketing, IT Support, Web Development, Graphic Design, and more.
+                    Partner with us for innovation, reliability, and growth.
+                </p>
+                <a href="services.html" class="btn-primary">Explore Our Services</a>
+            </div>
+        </section>
+
+        <!-- About Us Snippet Section -->
+        <section class="about-snippet-section py-16 px-4">
+            <div class="container flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <img src="images/Our Goal.jpg" alt="About Us" class="rounded-lg shadow-lg w-full h-auto">
+                </div>
+                <div class="md:w-1/2 text-center md:text-left">
+                    <h2 class="text-4xl font-bold mb-4">Who We Are</h2>
+                    <p class="text-lg mb-6">
+                        We are a dedicated team passionate about leveraging technology and creative solutions to empower businesses.
+                        With years of experience in various IT and marketing domains, we strive to deliver excellence and measurable results.
+                    </p>
+                    <a href="about.html" class="btn-secondary">Learn More About Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Services Section -->
+        <section class="featured-services-section py-16 px-4">
+            <div class="container text-center">
+                <h2 class="text-4xl font-bold mb-8">Our Core Services</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service 1 -->
+                    <div class="service-card p-6 rounded-lg shadow-md">
+                        <i class="fas fa-bullhorn text-4xl mb-4 text-primary-color"></i>
+                        <h3 class="text-2xl font-semibold mb-2">Digital Marketing</h3>
+                        <p class="text-md">Boost your online presence with our comprehensive digital marketing strategies.</p>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="service-card p-6 rounded-lg shadow-md">
+                        <i class="fas fa-headset text-4xl mb-4 text-primary-color"></i>
+                        <h3 class="text-2xl font-semibold mb-2">IT Support & Network</h3>
+                        <p class="text-md">Reliable IT support and robust network solutions for seamless operations.</p>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="service-card p-6 rounded-lg shadow-md">
+                        <i class="fas fa-laptop-code text-4xl mb-4 text-primary-color"></i>
+                        <h3 class="text-2xl font-semibold mb-2">Website Development</h3>
+                        <p class="text-md">Crafting stunning, responsive, and high-performing websites tailored to your needs.</p>
+                    </div>
+                </div>
+                <a href="services.html" class="btn-primary mt-12">View All Services</a>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta-section text-center py-20 px-4">
+            <div class="container">
+                <h2 class="text-4xl font-bold mb-4">Ready to Transform Your Business?</h2>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">
+                    Contact us today for a free consultation and let's discuss how we can help you achieve your goals.
+                </p>
+                <a href="contact.html" class="btn-secondary">Get in Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-8 px-4">
+        <div class="container text-center">
+            <p>&copy; 2024 AMATETA Techs & Designs. All rights reserved.</p>
+            <div class="social-links mt-4">
+                <a href="https://www.facebook.com/profile.php?id=61565523041653" target="_blank" class="text-2xl mx-2 hover:text-primary-color transition-colors"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/frans-haufiku-91587a241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-2xl mx-2 hover:text-primary-color transition-colors"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/a.techs.designs?igsh=MXZ1ZXc3MXlzbGwwNw==" target="_blank" class="text-2xl mx-2 hover:text-primary-color transition-colors"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to your custom JavaScript file -->
+    <script src="js/script.js"></script>
+</body>
+</html>

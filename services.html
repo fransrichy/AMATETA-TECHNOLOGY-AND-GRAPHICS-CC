@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMATETA Techs & Designs - Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container flex justify-between items-center py-4">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/OUR LOGO REVISED.png" alt="AMATETA Techs & Designs Logo" class="h-12 w-auto rounded-md">
+                </a>
+            </div>
+            <nav class="nav-menu">
+                <ul class="flex space-x-8"> <!-- Increased spacing here -->
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="team.html" class="nav-link">Our Team</a></li>
+                    <li><a href="services.html" class="nav-link active">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="mobile-menu-toggle" class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div id="mobile-nav-overlay" class="mobile-nav-overlay">
+            <button id="close-mobile-menu" class="close-mobile-menu">&times;</button>
+            <nav class="mobile-nav-menu">
+                <ul>
+                    <li><a href="index.html" class="nav-link-mobile">Home</a></li>
+                    <li><a href="about.html" class="nav-link-mobile">About</a></li>
+                    <li><a href="team.html" class="nav-link-mobile">Our Team</a></li>
+                    <li><a href="services.html" class="nav-link-mobile">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link-mobile">Portfolio</a></li>
+                    <li><a href="contact.html" class="nav-link-mobile">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero-section text-center py-20 px-4">
+            <div class="container">
+                <h1 class="text-5xl font-bold mb-4">Our Comprehensive Services</h1>
+                <p class="text-xl max-w-2xl mx-auto">
+                    From digital transformation to robust IT infrastructure, we've got you covered.
+                </p>
+            </div>
+        </section>
+
+        <!-- Services List with Counters -->
+        <section class="services-list-section py-16 px-4">
+            <div class="container">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <!-- Service Item: Digital Marketing -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/Patnership Poster.jpg" alt="Digital Marketing" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">Digital Marketing</h3>
+                        <p class="text-md mb-4">Drive growth with SEO, social media, content marketing, and paid ads.</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="150">0</span>
+                            <p class="text-sm">Successful Campaigns</p>
+                        </div>
+                    </div>
+
+                    <!-- Service Item: IT Support & Network Support -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/Network Suport.jpg" alt="IT Support" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">IT Support & Network Support</h3>
+                        <p class="text-md mb-4">Reliable technical assistance and robust network infrastructure setup.</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="200">0</span>
+                            <p class="text-sm">Clients Supported</p>
+                        </div>
+                    </div>
+
+                    <!-- Service Item: Computer Repairs -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/IT Support.JPG" alt="Computer Repairs" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">Computer Repairs</h3>
+                        <p class="text-md mb-4">Expert diagnostics and repair services for all your computer issues.</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="100">0</span>
+                            <p class="text-sm">Repairs Completed</p>
+                        </div>
+                    </div>
+
+                    <!-- Service Item: Copies and Printing -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/Printing.jpg" alt="Copies and Printing" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">Copies and Printing</h3>
+                        <p class="text-md mb-4">High-quality document copying and printing services for personal and business needs.</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="50000">0</span>
+                            <p class="text-sm">Pages Printed</p>
+                        </div>
+                    </div>
+
+                    <!-- Service Item: Corporate Printing -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/Corporate.jpg" alt="Corporate Printing" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">Corporate Printing</h3>
+                        <p class="text-md mb-4">Professional printing solutions for corporate branding, reports, and marketing materials.</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="75">0</span>
+                            <p class="text-sm">Corporate Clients</p>
+                        </div>
+                    </div>
+
+                    <!-- Service Item: Graphic Designing Trainings -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/Graphics.jpg" alt="Graphic Designing Trainings" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">Graphic Designing Trainings</h3>
+                        <p class="text-md mb-4">Empower yourself with practical graphic design skills through our expert-led trainings.</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="30">0</span>
+                            <p class="text-sm">Students Trained</p>
+                        </div>
+                    </div>
+
+                    <!-- Service Item: Website Development and Designs -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/ASTUTE.jpg" alt="Website Development and Designs" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">Website Development & Designs</h3>
+                        <p class="text-md mb-4">From concept to launch, we build stunning and functional websites.</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="80">0</span>
+                            <p class="text-sm">Websites Launched</p>
+                        </div>
+                    </div>
+
+                    <!-- Service Item: Graphic Designing (General) -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/Designing.jpg" alt="Graphic Designing" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">Graphic Designing</h3>
+                        <p class="text-md mb-4">Creative visual solutions for branding, marketing, and digital content.</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="250">0</span>
+                            <p class="text-sm">Design Projects</p>
+                        </div>
+                    </div>
+
+                    <!-- Service Item: Point of Sales Systems -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/Point of sale.jpg" alt="Point of Sales" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">Point of Sales (POS) Systems</h3>
+                        <p class="text-md mb-4">Efficient POS systems to streamline your retail and service operations.</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="45">0</span>
+                            <p class="text-sm">POS Installations</p>
+                        </div>
+                    </div>
+
+                    <!-- Service Item: IT Equipment Suppliers -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/Fullset.webp" alt="IT Equipment Suppliers" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">IT Equipment & Software Supply</h3>
+                        <p class="text-md mb-4">Providing quality IT hardware, software (e.g., Kaspersky, Microsoft), and accessories.</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="120">0</span>
+                            <p class="text-sm">Equipment Supplied</p>
+                        </div>
+                    </div>
+
+                    <!-- New Service Item: Business Cards -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/Business cards.jpg" alt="Business Cards Printing" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">Business Cards Printing</h3>
+                        <p class="text-md mb-4">High-quality business card printing with various finishes (Normal, Gloss, Matt).</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="300">0</span>
+                            <p class="text-sm">Card Orders</p>
+                        </div>
+                    </div>
+
+                    <!-- New Service Item: Estate Boards -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/Real.webp" alt="Estate Boards" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">Estate Boards & Signage</h3>
+                        <p class="text-md mb-4">Durable estate boards and custom signage solutions for properties.</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="60">0</span>
+                            <p class="text-sm">Boards Produced</p>
+                        </div>
+                    </div>
+
+                    <!-- New Service Item: Billboards -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/Bill.jpg" alt="Billboards Designing and Printing" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">Billboards Design & Printing</h3>
+                        <p class="text-md mb-4">Large-format billboard design and printing for maximum outdoor impact.</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="25">0</span>
+                            <p class="text-sm">Billboards Created</p>
+                        </div>
+                    </div>
+
+                    <!-- New Service Item: Company Profiles -->
+                    <div class="service-item p-6 rounded-lg shadow-md text-center">
+                        <img src="images/Besuccess Catering Website.jpg" alt="Company Profiles Design" class="w-full h-auto rounded-md mb-4">
+                        <h3 class="text-2xl font-semibold mb-2">Company Profiles Design</h3>
+                        <p class="text-md mb-4">Professional company profile design to showcase your business effectively.</p>
+                        <div class="counter-box bg-primary-color text-white p-4 rounded-md mt-4">
+                            <span class="counter text-4xl font-bold" data-target="90">0</span>
+                            <p class="text-sm">Profiles Designed</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta-section text-center py-20 px-4">
+            <div class="container">
+                <h2 class="text-4xl font-bold mb-4">Ready to Get Started?</h2>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">
+                    Let's discuss how our services can benefit your business.
+                </p>
+                <a href="contact.html" class="btn-secondary">Contact Us Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-8 px-4">
+        <div class="container text-center">
+            <p>&copy; 2024 AMATETA Techs & Designs. All rights reserved.</p>
+            <div class="social-links mt-4">
+                <a href="https://www.facebook.com/profile.php?id=61565523041653" target="_blank" class="text-2xl mx-2 hover:text-primary-color transition-colors"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/frans-haufiku-91587a241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-2xl mx-2 hover:text-primary-color transition-colors"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/a.techs.designs?igsh=MXZ1ZXc3MXlzbGwwNw==" target="_blank" class="text-2xl mx-2 hover:text-primary-color transition-colors"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

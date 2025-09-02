@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMATETA Techs & Designs - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container flex justify-between items-center py-4">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/OUR LOGO REVISED.png" alt="AMATETA Techs & Designs Logo" class="h-12 w-auto rounded-md">
+                </a>
+            </div>
+            <nav class="nav-menu">
+                <ul class="flex space-x-8"> <!-- Increased spacing here -->
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="team.html" class="nav-link">Our Team</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="mobile-menu-toggle" class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div id="mobile-nav-overlay" class="mobile-nav-overlay">
+            <button id="close-mobile-menu" class="close-mobile-menu">&times;</button>
+            <nav class="mobile-nav-menu">
+                <ul>
+                    <li><a href="index.html" class="nav-link-mobile">Home</a></li>
+                    <li><a href="about.html" class="nav-link-mobile">About</a></li>
+                    <li><a href="team.html" class="nav-link-mobile">Our Team</a></li>
+                    <li><a href="services.html" class="nav-link-mobile">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link-mobile">Portfolio</a></li>
+                    <li><a href="contact.html" class="nav-link-mobile">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero-section text-center py-20 px-4">
+            <div class="container">
+                <h1 class="text-5xl font-bold mb-4">Our Creative Portfolio</h1>
+                <p class="text-xl max-w-2xl mx-auto">
+                    Showcasing our best work in web development, graphic design, and marketing.
+                </p>
+            </div>
+        </section>
+
+        <!-- Portfolio Gallery -->
+        <section class="portfolio-gallery-section py-16 px-4">
+            <div class="container">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Portfolio Item 1 -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/ASTUTE.jpg" alt="Project ASTUTE" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">ASTUTE Technologies Website</h3>
+                            <p class="text-md mb-4">A modern and responsive website designed for ASTUTE Technologies.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2 -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/Lavital.jpg" alt="Project LAVITAL" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">LAVITAL Graphic Design</h3>
+                            <p class="text-md mb-4">Creative graphic design solutions for Lavital Investments CC.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3 -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/Screenshot (63).png" alt="Project Responsive Website" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">Responsive Website Development</h3>
+                            <p class="text-md mb-4">Showcasing our expertise in responsive web development.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4 -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/Ads.jpg" alt="Project Graphic Design Ads" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">Graphic Design Ads Campaign</h3>
+                            <p class="text-md mb-4">Effective advertising posters and designs for various clients.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5 -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/Display Stands.jpg" alt="Project Outdoor Display" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">Outdoor Display Branding</h3>
+                            <p class="text-md mb-4">A-Frames and Pop-up banners for outdoor advertising.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6 -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/Wall-Banner.jpg" alt="Project Wall Banner" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">Custom Wall Banners</h3>
+                            <p class="text-md mb-4">Large format wall banners for impactful corporate branding.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 7 -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/Banner-sample1.webp" alt="Project Pull Up Banner" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">X-Frame & Pull-Up Banners</h3>
+                            <p class="text-md mb-4">Portable display solutions for events and promotions.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 8: Business Cards -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/business-card-2.jpg" alt="Business Cards Design" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">Business Card Designs</h3>
+                            <p class="text-md mb-4">Professional and eye-catching business card designs.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 9: Estate Boards -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/correx_estate_agent_sign_3_1.jpg" alt="Estate Boards" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">Estate Board Signage</h3>
+                            <p class="text-md mb-4">Custom estate boards for property advertising.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 10: Billboards -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/Bealboard.jpg" alt="Billboards" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">Billboard Advertisements</h3>
+                            <p class="text-md mb-4">Large-scale billboard designs for maximum exposure.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 11: Company Profiles -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/Profile 2.jpg" alt="Company Profiles" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">Company Profile Creation</h3>
+                            <p class="text-md mb-4">Designing comprehensive and professional company profiles.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 12: Graphic Design Training -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/Softwares.png" alt="Graphic Design Training" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">Graphic Design Training Materials</h3>
+                            <p class="text-md mb-4">Training course materials for aspiring graphic designers.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 13: Kaspersky -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/Unti.jpg" alt="Kaspersky Antivirus" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">Kaspersky Antivirus Promotion</h3>
+                            <p class="text-md mb-4">Marketing materials for IT software supply.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 14: Microsoft Packages -->
+                    <div class="portfolio-item rounded-lg shadow-md overflow-hidden">
+                        <img src="images/Microsoft.jpg" alt="Microsoft Packages" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-2">Microsoft Software Packages</h3>
+                            <p class="text-md mb-4">Promotional designs for various Microsoft software products.</p>
+                            <a href="#" class="text-primary-color hover:underline">View Project <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta-section text-center py-20 px-4">
+            <div class="container">
+                <h2 class="text-4xl font-bold mb-4">Have a Project in Mind?</h2>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">
+                    Let's collaborate and bring your vision to life.
+                </p>
+                <a href="contact.html" class="btn-secondary">Discuss Your Project</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-8 px-4">
+        <div class="container text-center">
+            <p>&copy; 2024 AMATETA Techs & Designs. All rights reserved.</p>
+            <div class="social-links mt-4">
+                <a href="https://www.facebook.com/profile.php?id=61565523041653" target="_blank" class="text-2xl mx-2 hover:text-primary-color transition-colors"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/frans-haufiku-91587a241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-2xl mx-2 hover:text-primary-color transition-colors"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/a.techs.designs?igsh=MXZ1ZXc3MXlzbGwwNw==" target="_blank" class="text-2xl mx-2 hover:text-primary-color transition-colors"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
